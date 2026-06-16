@@ -88,7 +88,7 @@
     </header>
 
     <main>
-        <p><img src="entregue.png" alt="Imagem da Olivia Rodrigo"></p>
+        <p><img src="or.png" alt="Imagem da Olivia Rodrigo"></p>
 
         <h2>Meu primeiro post</h2>
         <p class="autor">Por: Nina Lara</p>
