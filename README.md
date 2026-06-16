@@ -1,30 +1,69 @@
 # PRIMEIRAPAGINANINA
-primeira pagina feita na aula o prof marcos
-box-sizing: border-box;
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Olivia Rodrigo</title>
+
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #4b0082; /* roxo */
+            color: #333;
+        }
+
+        header {
+            background-color: #c9a0ff; /* roxo claro */
+            color: #4b0082;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 24px 16px;
+            border-radius: 8px 8px 0 0;
+            border: 1px solid #ffffff; /* borda branca */
+        }
+
+        header h1 {
+            margin: 0 0 10px 0;
+        }
+
+        header p {
+            margin: 0;
+            opacity: 0.85;
+        }
+
+        main {
+            background-color: #ffffff;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 32px 16px;
+            box-sizing: border-box;
             border-radius: 0 0 8px 8px;
-            border: 1px solid #ddd; /* Borda fina */
-            border-top: none; /* Une com o header */
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
 
             display: flex;
             flex-direction: column;
             align-items: center;
             text-align: center;
+
+            border: 1px solid #ffffff; /* borda branca */
+            border-top: none;
         }
 
-        /* Estilização da imagem */
         img {
             width: 120px;
             height: 120px;
             object-fit: cover;
             border-radius: 50%;
             margin-bottom: 16px;
-            border: 2px solid #d8bffb; /* Borda da imagem combinando com fundo */
         }
 
         main h2 {
             margin: 0 0 8px 0;
-            color: DarkSlateBlue;
+            color: #4b0082;
         }
 
         .autor {
@@ -34,27 +73,32 @@ box-sizing: border-box;
         }
 
         .mensagem {
-            font-size: 1.1rem;
-            max-width: 500px;
-            line-height: 1.5;
+            font-size: 1.05rem;
+            max-width: 600px;
+            line-height: 1.6;
         }
     </style>
 </head>
+
 <body>
 
     <header>
-        <h1>Crie um nome para sua página</h1>
-        <p>Faça uma introdução interessante, diga algo que chame a atenção</p>
+        <h1>OLIVIA RODRIGO</h1>
+        <p>Bem-vindo ao universo da artista</p>
     </header>
 
     <main>
-        <p><img src="entregue.png" alt="Pessoa atribulada com trabalhos para entregar"></p>
+        <p><img src="entregue.png" alt="Imagem da Olivia Rodrigo"></p>
+
         <h2>Meu primeiro post</h2>
-        <p class="autor">Por: Marcos Felix</p>
+        <p class="autor">Por: Nina Lara</p>
+
         <p class="mensagem">
-            Seja muito bem-vindo(a)! Este é um espaço criado para compartilhar ideias,
-            experiências e conteúdos especiais. Espero que você aproveite a visita e
-            volte sempre para acompanhar as novidades.
+            Bem-vindo ao site sobre a Olivia Rodrigo!<br><br>
+
+            Aqui é o lugar certo pra quem curte as músicas dela, quer saber mais sobre a carreira e descobrir um pouco do universo da Olivia. Ela ficou famosa com “drivers license” e, desde então, vem lançando músicas que falam de sentimentos reais, tipo amor, términos e aquelas fases meio confusas da vida que todo mundo já viveu.<br><br>
+
+            Fica à vontade pra explorar o site e mergulhar nesse mundo dela — tem muita coisa legal pra conhecer!
         </p>
     </main>
 
