@@ -90,7 +90,7 @@
     <main>
         <p><img src="or.png" alt="Imagem da Olivia Rodrigo"></p>
 
-        <h2>Meu primeiro post</h2>
+        <h2>Olivia Rodrigo</h2>
         <p class="autor">Por: Nina Lara</p>
 
         <p class="mensagem">
