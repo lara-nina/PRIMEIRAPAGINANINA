@@ -11,19 +11,19 @@
             font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             margin: 0;
             padding: 20px;
-            background-color: #4b0082; /* roxo */
+            background-color: #4b0082;
             color: #333;
         }
 
         header {
-            background-color: #c9a0ff; /* roxo claro */
+            background-color: #c9a0ff;
             color: #4b0082;
             text-align: center;
             max-width: 800px;
             margin: 0 auto;
             padding: 24px 16px;
             border-radius: 8px 8px 0 0;
-            border: 1px solid #ffffff; /* borda branca */
+            border: 1px solid #ffffff;
         }
 
         header h1 {
@@ -49,7 +49,7 @@
             align-items: center;
             text-align: center;
 
-            border: 1px solid #ffffff; /* borda branca */
+            border: 1px solid #ffffff;
             border-top: none;
         }
 
@@ -77,6 +77,22 @@
             max-width: 600px;
             line-height: 1.6;
         }
+
+        button {
+            margin-top: 20px;
+            padding: 10px 20px;
+            font-size: 18px;
+            border: none;
+            border-radius: 8px;
+            background-color: #c9a0ff;
+            color: #4b0082;
+            cursor: pointer;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #b084f7;
+        }
     </style>
 </head>
 
@@ -100,7 +116,21 @@
 
             Fica à vontade pra explorar o site e mergulhar nesse mundo dela — tem muita coisa legal pra conhecer!
         </p>
+
+        <button>❤️ <span>0</span></button>
+
     </main>
+
+    <script>
+        const botao = document.querySelector("button");
+
+        botao.addEventListener("click", botaoClicado);
+
+        function botaoClicado() {
+            let texto = botao.querySelector("span");
+            texto.textContent++;
+        }
+    </script>
 
 </body>
 </html>
