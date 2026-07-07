@@ -122,14 +122,14 @@
     </main>
 
     <main>
-        <p><img src="or.png" alt="Imagem da Olivia Rodrigo"></p>
+        <p><img src="ORdrives.png" alt="Imagem da Olivia Rodrigo"></p>
 
         <h2>Olivia Rodrigo</h2>
         <p class="autor">Por: Nina Lara</p>
 
         <p class="mensagem">
           
-           A música **"drivers license"**, de **Olivia Rodrigo**,a sua musica mais famosas, foi lançada em 2021 e fala sobre a tristeza após o fim de um relacionamento. A carteira de motorista representa um sonho que perdeu o sentido com a separação. A canção fez grande sucesso mundial e ganhou um **Grammy**.
+           A música "drivers license", de Olivia Rodrigo,a sua musica mais famosas, foi lançada em 2021 e fala sobre a tristeza após o fim de um relacionamento. A carteira de motorista representa um sonho que perdeu o sentido com a separação. A canção fez grande sucesso mundial e ganhou um Grammy.
 .<br><br>
 
         </p>
