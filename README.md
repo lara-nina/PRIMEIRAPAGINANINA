@@ -135,17 +135,16 @@
         <button>❤️ <span>0</span></button>
 
     </main>
+<script>
+    const botoes = document.querySelectorAll("button");
 
-    <script>
-        const botao = document.querySelector("button");
-
-        botao.addEventListener("click", botaoClicado);
-
-        function botaoClicado() {
-            let texto = botao.querySelector("span");
+    botoes.forEach(botao => {
+        botao.addEventListener("click", () => {
+            const texto = botao.querySelector("span");
             texto.textContent++;
-        }
-    </script>
+        });
+    });
+</script>
 
 </body>
 </html>
