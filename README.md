@@ -122,7 +122,7 @@
     </main>
 
     <main>
-        <p><img src="ORdrives.png" alt="Imagem da Olivia Rodrigo"></p>
+        <p><img src="ORdrivers.png" alt="Imagem da Olivia Rodrigo"></p>
 
         <h2>Olivia Rodrigo</h2>
         <p class="autor">Por: Nina Lara</p>
