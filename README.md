@@ -128,11 +128,10 @@
         <p class="autor">Por: Nina Lara</p>
 
         <p class="mensagem">
-            Bem-vindo ao site sobre a Olivia Rodrigo!<br><br>
+          
+           A música **"drivers license"**, de **Olivia Rodrigo**,uma das suas musicas mais famosas, foi lançada em 2021 e fala sobre a tristeza após o fim de um relacionamento. A carteira de motorista representa um sonho que perdeu o sentido com a separação. A canção fez grande sucesso mundial e ganhou um **Grammy**.
+.<br><br>
 
-            Aqui é o lugar certo pra quem curte as músicas dela, quer saber mais sobre a carreira e descobrir um pouco do universo da Olivia. Ela ficou famosa com “drivers license” e, desde então, vem lançando músicas que falam de sentimentos reais, tipo amor, términos e aquelas fases meio confusas da vida que todo mundo já viveu.<br><br>
-
-            Fica à vontade pra explorar o site e mergulhar nesse mundo dela — tem muita coisa legal pra conhecer!
         </p>
 
         <button>❤️ <span>0</span></button>
